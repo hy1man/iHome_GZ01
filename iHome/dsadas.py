@@ -5,6 +5,7 @@ from flask_script import Manager
 
 app = Flask(__name__)
 manage =Manager(app)
+a=1
 
 @app.route('/')
 def index():
